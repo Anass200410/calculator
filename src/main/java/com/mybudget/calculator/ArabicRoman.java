@@ -5,7 +5,7 @@ public class ArabicRoman {
     public static int[] nombre = {1000, 500,400, 100, 50,40, 10, 9,5, 4,1};
 
     public String convert(int nbr) {
-        /*
+        /* step 1:
            if(nbr==1) return("I");
            else if (nbr==2) return("II");
            String ret=" ";
