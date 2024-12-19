@@ -14,6 +14,7 @@ class FizzBuzzTest {
         assertEquals("2",fz.fizzbuzz_de(2));
         assertEquals("FIZZ",fz.fizzbuzz_de(3));
         assertEquals("BUZZ",fz.fizzbuzz_de(5));
+        assertEquals("FIZZBUZZ",fz.fizzbuzz_de(15));
 
     }
 }
