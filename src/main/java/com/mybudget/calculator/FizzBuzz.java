@@ -1,6 +1,6 @@
 package com.mybudget.calculator;
 
-public class FizzBuzz {
+ public class FizzBuzz {
 String res="";
 
 
@@ -15,6 +15,7 @@ String res="";
         }
     }
 }
+
 
 
 
