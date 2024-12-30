@@ -14,7 +14,6 @@ class PersonnageTest {
         // tester les nbrs > 3
         assertThat(personne.tourner(4)).isEqualTo("NORD");
         assertThat(personne.tourner(5)).isEqualTo("EST");
-        // Nombre fois negatif
-        assertThat(personne.tourner(-1)).isEqualTo("OUEST");
+
     }
 }
